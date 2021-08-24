@@ -1,0 +1,27 @@
+*{
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+}
+
+.main_heading{
+    color: #eed461;
+    font-size: 5rem;
+    width: 90%;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.main_container{
+    background-image: url(https://images.unsplash.com/photo-1541450805268-4822a3a774ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 10rem;
+}
