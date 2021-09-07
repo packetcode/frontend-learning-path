@@ -119,3 +119,32 @@ const testObject2 = [
 ]
 
 console.log(testObject2[1].skills[0]);
+
+// DOM
+
+console.log(window);
+
+// window.alert("hi");
+
+console.log(document.querySelector('form'));
+console.log(document.querySelectorAll('.item'));
+
+console.log(document.getElementById('login-form'));
+console.log(document.getElementsByClassName('.item'));
+
+document.getElementById('username').value = "kamal";
+
+document.getElementById('message').innerText = 'Hi';
+document.getElementById('message').innerHTML = 'hello';
+
+function changeColor(){
+    document.getElementById("sampleText").style.background = 'red';
+    // document.getElementById("sampleText").classList.add('bg-dark');
+}
+
+function submitForm(event){
+    event.preventDefault();
+    const loginForm = document.getElementById("login-form");
+    console.log(loginForm[0]);
+    loginForm.submit();
+}
