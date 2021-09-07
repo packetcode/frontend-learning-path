@@ -7,8 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="main.js">
-        // console.log("Sample Text");
-    </script>
+
+    <form id="login-form" onsubmit="submitForm(event)">
+        <label>Username:</label>
+        <input type="text" id="username">
+        <label>Password:</label>
+        <input type="password" id="username">
+
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+        <button type="submit" onclick="changeColor();">Submit</button>
+    </form>
+
+    <h1 id="sampleText">Sample Text</h1>
+    <button onclick="changeColor();">Change Color</button>
+    
+    <script src="main.js"></script>
 </body>
 </html>
